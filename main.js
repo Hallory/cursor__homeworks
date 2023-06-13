@@ -13,4 +13,9 @@ console.log("Парне? : "+(Math.floor(sum)?sum%2 == true:false));
 console.log("Решта: "+(500-sum));
 console.log("Округлення до ста: "+(Math.ceil(sum/100)*100));
 
+const randomValue = Math.random()*10;
+console.log("Знижка: "+randomValue)
+
+console.log("Решта зі знижкою: "+(500-sum+randomValue).toFixed(2));
+
 
